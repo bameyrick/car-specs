@@ -1,0 +1,44 @@
+import { Value } from './value';
+
+export interface Specs {
+  miles_per_pound_min?: Value;
+  miles_per_pound_max?: Value;
+  fuel_consumption_min?: Value;
+  fuel_consumption_max?: Value;
+  insurance_group?: Value;
+  annual_road_tax?: Value;
+  price_when_new?: Value;
+  used_price_min?: Value;
+  used_price_max?: Value;
+  fuel_capacity?: Value;
+  weight?: Value;
+  length?: Value;
+  width?: Value;
+  height?: Value;
+  wheelbase?: Value;
+  turning_circle?: Value;
+  power?: Value;
+  top_speed?: Value;
+  acceleration?: Value;
+  torque_nm?: Value;
+  torque_ftlb?: Value;
+  emissions_co2?: Value;
+  euro_emissions_standard?: Value;
+  miles_per_tank?: Value;
+  engine_size?: Value;
+  cylinders?: Value;
+  valves?: Value;
+  fuel_type?: Value;
+  transmission?: Value;
+  gears?: Value;
+  drivetrain?: Value;
+  doors?: Value;
+  seats?: Value;
+  luggage_capacity?: Value;
+  unbraked_towing_weight?: Value;
+  braked_towing_weight?: Value;
+  adult_occupant_safety?: Value;
+  child_occupant_safety?: Value;
+  vulnerable_road_user_safety?: Value;
+  safety_assist?: Value;
+}
